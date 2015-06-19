@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/anool/projects-git/ESP8266_01_Breakout/kicad/esp826601.sch</source>
+    <date>Fri Jun 19 15:57:30 2015</date>
+    <tool>Eeschema 0.201506162246+5763~23~ubuntu14.10.1-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>ESP8266_01_Breakout</title>
+        <company/>
+        <rev>01</rev>
+        <date>2015-06-19</date>
+        <source>esp826601.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/USB_SER/" tstamps="/5583F616/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>USB_SER.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Regulator/" tstamps="/5583E5B9/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Regulator.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>ESP8266-01</value>
+      <footprint>esp8266:Pin_Header_Straight_2x04</footprint>
+      <libsource lib="conn" part="CONN_02X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5583C98F</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>esp8266:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5583CC46</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>esp8266:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5583CD89</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>esp8266:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5583CDC4</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>RST</value>
+      <footprint>esp8266:SW_PUSH_SMALL</footprint>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5583D062</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>TX_LVL</value>
+      <footprint>esp8266:Pin_Header_Straight_1x03</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5583D3C7</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>esp8266:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5583D6B3</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>esp8266:LED-3MM</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5583D6FD</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>GPIO0</value>
+      <footprint>esp8266:SW_PUSH_SMALL</footprint>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5583D9B3</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>esp8266:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55840F34</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1k8</value>
+      <footprint>esp8266:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>558410DF</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>FTDI</value>
+      <footprint>esp8266:Pin_Header_Angled_1x06</footprint>
+      <libsource lib="conn" part="CONN_01X06"/>
+      <sheetpath names="/USB_SER/" tstamps="/5583F616/"/>
+      <tstamp>5583F64C</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>5V0&lt;&gt;3V3</value>
+      <footprint>esp8266:Pin_Header_Straight_1x03</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/USB_SER/" tstamps="/5583F616/"/>
+      <tstamp>5583F6EE</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LD1117AV33</value>
+      <footprint>esp8266:TO-220_Neutral123_Horizontal_LS</footprint>
+      <libsource lib="regul" part="NCP1117ST33T3G"/>
+      <sheetpath names="/Regulator/" tstamps="/5583E5B9/"/>
+      <tstamp>5583E5FC</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10u</value>
+      <footprint>esp8266:Capacitor5x6RM2.5</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/Regulator/" tstamps="/5583E5B9/"/>
+      <tstamp>5583E64C</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10u</value>
+      <footprint>esp8266:Capacitor5x6RM2.5</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/Regulator/" tstamps="/5583E5B9/"/>
+      <tstamp>5583E70D</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SW_PUSH">
+      <description>Push Button</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X06">
+      <footprints>
+        <fp>Pin_Header_Straight_1X06</fp>
+        <fp>Pin_Header_Angled_1X06</fp>
+        <fp>Socket_Strip_Straight_1X06</fp>
+        <fp>Socket_Strip_Angled_1X06</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X04">
+      <footprints>
+        <fp>Pin_Header_Straight_2X04</fp>
+        <fp>Pin_Header_Angled_2X04</fp>
+        <fp>Socket_Strip_Straight_2X04</fp>
+        <fp>Socket_Strip_Angled_2X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="regul" part="NCP1117ST50T3G">
+      <aliases>
+        <alias>NCP1117ST12T3G</alias>
+        <alias>NCP1117ST15T3G</alias>
+        <alias>NCP1117ST18T3G</alias>
+        <alias>NCP1117ST20T3G</alias>
+        <alias>NCP1117ST25T3G</alias>
+        <alias>NCP1117ST285T3G</alias>
+        <alias>NCP1117ST33T3G</alias>
+      </aliases>
+      <description>NCP1117ST50T3G, 1A Low drop-out regulator, Fixed Output 5V, SOT223</description>
+      <docs>http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF</docs>
+      <footprints>
+        <fp>SOT223</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NCP1117ST50T3G</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>/usr/share/kicad/library/regul.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/3V3">
+      <node ref="J1" pin="7"/>
+      <node ref="D1" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="2" name="Net-(D1-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="3" name="/USB_SER/TX_PC-A">
+      <node ref="J4" pin="3"/>
+      <node ref="R7" pin="1"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="4" name="/TX_PC-A-DIV">
+      <node ref="R7" pin="2"/>
+      <node ref="R8" pin="1"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="5" name="/USB_SER/RX_PC-A">
+      <node ref="J4" pin="2"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="6" name="/USB_SER/CTS-A">
+      <node ref="J4" pin="5"/>
+    </net>
+    <net code="7" name="/USB_SER/DTR-A">
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="8" name="/GPIO0-A">
+      <node ref="R4" pin="2"/>
+      <node ref="J1" pin="6"/>
+      <node ref="SW2" pin="1"/>
+    </net>
+    <net code="9" name="/GPIO2-A">
+      <node ref="J1" pin="4"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="10" name="/TX-PC">
+      <node ref="J3" pin="2"/>
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="11" name="/CH_PD-A">
+      <node ref="J1" pin="3"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="12" name="/RST-A">
+      <node ref="J1" pin="5"/>
+      <node ref="R1" pin="2"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="13" name="5V0">
+      <node ref="J2" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="14" name="3V3">
+      <node ref="J2" pin="3"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="15" name="GND">
+      <node ref="J4" pin="6"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="16" name="/USB_SER/VIN">
+      <node ref="J4" pin="4"/>
+      <node ref="J2" pin="2"/>
+    </net>
+  </nets>
+</export>
